@@ -47,12 +47,6 @@ class _MainPageState extends State<MainPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              // if(str != null) Text(
-              //   str!,
-              // ),
-              // const SizedBox(
-              //   height: 15,
-              // ),
               if(currentPosition != null ) Text(
                   "LONGITUDE: ${currentPosition!.longitude}"
               ),
